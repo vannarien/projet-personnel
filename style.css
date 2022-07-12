@@ -1,0 +1,130 @@
+body {
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: x-large;
+    background-color:rgb(22, 23, 43);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo img {
+    width: 6vw;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkgray;
+}
+
+#logores {
+     display: flex; 
+    flex-direction: row;
+}
+
+.reslog {
+    width: 3vw;
+    margin-right: 5px;
+}
+
+.page_intro {
+    background-image: url(imgcom/ecranbievenue3.PNG);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 60px;
+    line-height: 1em;
+    color: white;   
+}
+
+#imgarky img{
+    margin-right: 105px;
+    margin-top: 40px;
+    width: 11.5vw;
+}
+
+.case_ecrit h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.case_ecrit h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+
+#case_vide {
+    margin-right: 340px; /* important ! */
+}
+
+#anim {
+    animation: arky 2s infinite alternate;
+}
+
+@keyframes arky {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.category {
+    background-image: url('imgcom/test-bois-2.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.category_img {
+    display: flex;
+}
+
+.category_img img {
+    max-width: 40%;
+    margin-left: 170px;
+    margin-bottom: 60px;
+    filter: brightness(50%);
+}
+
+.vidéo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.youtube iframe{
+    width: 30vw;
+    height: 20vw;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
